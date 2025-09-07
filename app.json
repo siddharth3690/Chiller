@@ -20,7 +20,12 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "permissions": [
+        "android.permission.READ_CONTACTS",
+        "android.permission.WRITE_CONTACTS"
+      ],
+      "package": "com.sid_003.Chiller01"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -32,6 +37,18 @@
           "contactsPermission": "Allow $(PRODUCT_NAME) to access your contacts."
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "e6ec9e56-b4d0-4eeb-b100-e1edac945a80"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/e6ec9e56-b4d0-4eeb-b100-e1edac945a80"
+    },
+    "owner": "sid_003"
   }
 }
