@@ -4,7 +4,7 @@ import React from 'react'
 const TemplatesScreen = () => {
   return (
     <View style={{flex:1, justifyContent:'center',alignItems:'center' }}>
-      <Text>comming soon....</Text>
+      <Text>comming soon.......</Text>
     </View>
   )
 }
